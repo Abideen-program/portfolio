@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevAbideen Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/DEVABIDEEN -logo.png" alt="" class="logo" />
+      <button class="nav-toggle" aria-label="toggle navigation ">
+        <span class="hambugger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>Shoppy E-commerce Website</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Description</p>
+      <img src="./images/shoppy.png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-description">
+      <p>
+        SHOPPY is an e-commerce website built with React, React-Context API, and
+        firebase realtime database.
+      </p>
+      <img src="./images/shoppy.png" alt="" />
+      <p>
+        This website allows users to have a quick glance throught the featured
+        products and new arrival products section. It allows the use to add
+        products to cart, increase or reduce the quantities, and/or remove the
+        entire product from the cart. It has a payment section to process
+        payment-like process. The app mimick modern e-commerce website.
+      </p>
+
+      <a
+        href="https://abideen-bbc-landingpage.netlify.app/"
+        target="_blank"
+        class="btn"
+        >Visit</a
+      >
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:olafimihana@gmail.com" class="footer__link"
+        >olafimihana@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://codepen.io/your-work/" class="social-list__link">
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/Abideen-program"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/Olafimihanabid"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/olafimihan-abideen/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
