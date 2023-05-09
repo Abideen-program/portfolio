@@ -32,8 +32,8 @@
 
 @media (min-width: 800px){
     :root{
-        --fs-h1: 4rem;
-        --fs-h2: 3.75rem;
+        --fs-h1: 3.5rem;
+        --fs-h2: 3rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
     }
@@ -428,6 +428,8 @@ header{
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        width: 100%;
+        height: 100%;
 }
 
 .portfolio__img:hover,
